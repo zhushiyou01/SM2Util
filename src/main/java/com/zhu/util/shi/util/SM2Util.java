@@ -146,8 +146,8 @@ public class SM2Util {
 
     /**
      * 签名   格式是R+S
-     * @param privateKey
-     * @param dataHex
+     * @param privateKey Hex格式
+     * @param dataHex Hex格式
      * @return
      * @throws Exception
      */
