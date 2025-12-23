@@ -59,7 +59,21 @@
             <artifactId>bcprov-jdk15to18</artifactId>
             <version>1.69</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- Add Jackson dependency -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.11.3</version>
+        </dependency>
+
     </dependencies>
+
+
 
     <build>
         <plugins>
